@@ -20,7 +20,7 @@ pipeline {
         
           stage("Compile Package") {
             steps {
-                sh "/usr/local/bin/mvn package"
+                sh "/usr/bin/mvn package"
                 
                 
             }
@@ -28,7 +28,7 @@ pipeline {
 
         stage("Run tests") {
             steps {
-                sh "/usr/local/bin/mvn test"
+                sh "/usr/bin/mvn test"
                 
             }
           } 
