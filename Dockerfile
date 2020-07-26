@@ -7,4 +7,4 @@ COPY ./target/java-tomcat-maven-example.war /usr/local/tomcat/webapps/.
 #CMD java -jar java-tomcat-maven-example.war
 CMD ["catalina.sh","run"]
 
-EXPOSE 3000
+EXPOSE 8080
