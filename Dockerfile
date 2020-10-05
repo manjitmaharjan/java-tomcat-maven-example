@@ -5,6 +5,6 @@ FROM tomcat:8
 COPY ./target/java-tomcat-maven-example.war /usr/local/tomcat/webapps/.
 #CMD "echo","done"
 #CMD java -jar java-tomcat-maven-example.war
-CMD ["catalina.sh","run"]
+#CMD ["catalina.sh","run"]
 
-EXPOSE 8080
+#EXPOSE 8080
